@@ -26,6 +26,10 @@ dependencies {
     implementation group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: '6.5.0.202303070854-r'
     implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
     implementation group: 'org.eclipse.jdt', name: 'org.eclipse.jdt.core', version: '3.32.0'
+    implementation group: 'org.jetbrains.kotlin', name: 'kotlin-compiler-embeddable', version: '1.8.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.14.2'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
+
     implementation group: 'args4j', name: 'args4j', version: '2.33'
     implementation group: 'commons-codec', name: 'commons-codec', version: '1.15'
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.36'

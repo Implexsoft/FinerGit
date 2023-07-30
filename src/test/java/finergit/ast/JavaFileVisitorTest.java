@@ -24,8 +24,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -50,8 +50,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -75,8 +75,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -100,8 +100,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -128,8 +128,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -162,8 +162,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
@@ -201,8 +201,8 @@ public class JavaFileVisitorTest {
     config.setClassFileGenerated("false");
     config.setMethodFileGenerated("true");
     config.setFieldFileGenerated("false");
-    final FinerJavaFileBuilder builder = new FinerJavaFileBuilder(config);
-    final List<FinerJavaModule> modules = builder.getFinerJavaModules(path, text);
+    final FinerFileBuilder builder = new FinerFileBuilder(config);
+    final List<FinerModule> modules = builder.getFinerJavaModules(path, text);
     final List<String> tokens = modules.get(0)
         .getTokens()
         .stream()
